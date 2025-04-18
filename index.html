@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h6>Noora</h6>
+            <div class="email-box">
+                <i class="bi-messenger"></i>
+                <span>XXX@gmail.com</span>
+            </div>
+            <div class="tel-box">
+                <i class="bi-telephone"></i>
+                <span>+XXXXXXXX</span>
+            </div>
+        </div>
+        <nav class="nav">
+            <a class="nav-link active" href="#about">About Me</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+    <div class="container-md">
+        <!-- about me -->
+        <section id="about">
+            <figure>
+                <img src="images/girl.png" alt="">
+                <div class="info">
+                    <legend>Hi, I'm Noora!<img style="height: 30px;margin-left: 5px;" src="images/sayhello.png"/></legend>
+                    <p>My name is Noora. I am a front-end developer with seven years of professional experience, having worked at several leading internet companies in China. Currently, I am expanding my skill set by studying back-end development, with the goal of becoming a full-stack engineer.</p>
+                </div>
+            </figure>
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li class="shadow">
+                    <img src="images/html-icon.png" alt="">
+                    <h6>HTML</h3>
+                    <span>7 years experience</span>
+                </li>
+                <li class="shadow">
+                    <img src="images/Javascript-icon.png" alt="">
+                    <h6>Javascript</h3>
+                    <span>7 years experience</span>
+                </li>
+                <li class="shadow">
+                    <img src="images/Vue-icon.png" alt="">
+                    <h6>Vue</h3>
+                    <span>5 years experience</span>
+                </li>
+                <li class="shadow">
+                    <img src="images/React-icon.png" alt="">
+                    <h6>React</h3>
+                    <span>5 years experience</span>
+                </li>
+                <li class="shadow">
+                    <img src="images/node-icon.png" alt="">
+                    <h6>Node.js</h3>
+                    <span>2 years experience</span>
+                </li>
+                <li class="shadow">
+                    <img src="images/css-icon.png" alt="">
+                    <h6>css</h3>
+                    <span>7 years experience</span>
+                </li>
+            </ul>
+        </section>
+        <!-- projects -->
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Laptop Repair Guidance System (WebAR with MindAR)
+                        </button>
+                    </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        This is a WebAR-based repair assistance project developed using MindAR.js. The system allows users to scan specific parts of a laptop using a mobile device or tablet. Upon recognition, it overlays 3D repair instructions on the identified components. The project leverages image tracking capabilities to provide real-time, interactive, and intuitive guidance without the need for native apps, greatly improving repair efficiency and accessibility.                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Zhiniu                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        This project is part of Zhiniu, an enterprise training platform developed by Ping An Group. The Offline Exam and Queueing Module were designed to support on-site exam sessions for employees across China, providing standardized check-in, identity verification, and queue management features.
+                        As a front-end developer, I was responsible for building the interface and interactive logic of these modules. The system supported live camera integration for candidate verification, WebSocket-based real-time queue updates, and responsive design for mobile, tablet, and large-screen displays.                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            "Three Clouds" Digital Platform Development                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        I was involved in the development of  "Three Clouds" digital platform, primarily focusing on the Private Cloud ( CloudStack) management system. I utilized Vue 3 and Element Plus to optimize the user interface and interaction experience, ensuring efficient data display and operational flow. Additionally, I collaborated with the backend team to implement real-time data communication via WebSocket, ensuring stable performance in high-concurrency scenarios.                    </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <!-- recommendations -->
+        <section id="recommendations" >
+            <h3>Recommendations</h3>
+            <ul id="recommendationList" class="list-group">
+                <li class="list-group-item shadow">
+                    I consistently pay close attention to detail, which allows me to identify potential issues early and ensure high-quality output. My analytical skills help me solve complex problems efficiently and contribute to the success of every project I work on.
+                    </li>
+                <li class="list-group-item shadow">
+                    I am highly adaptable in dynamic work environments and always eager to learn new technologies. This mindset has enabled me to stay ahead of trends and improve my skill set continually, helping me contribute effectively to both personal and team growth.
+
+                    </li>
+                <li class="list-group-item shadow">
+                    I believe in the power of teamwork and actively collaborate with colleagues to achieve common goals. My strong communication skills help foster positive relationships and ensure that project objectives are met effectively and on time.
+
+                    </li>
+            </ul>
+            <fieldset>
+                <figcaption>Leave a Recommendation</figcaption>
+                <form >
+                    <input type="text" class="form-control" id="name" placeholder="Name(optional)"> <br/>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="button" class="btn btn-outline-primary" onclick="addRecommendation()">Submit</button>
+                </form>
+            </fieldset>
+        </section>
+        <div id="backToTop" class="back-to-top">
+            <a href="#top"><i class="bi-arrow-up-circle-fill"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" crossorigin="anonymous"></script>
+    <script src="./bootstrap.min.js" ></script>
+    <script src="./index.js"></script>
+    <script>
+       onload=function(){
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        btn.classList.add('show');
+    } else {
+        btn.classList.remove('show');
+    }
+    });
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    
+}
+    </script>
+  
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+    color: #fff;
+    background: #007bff;
+}
+.nav .active:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+section{
+    padding: 20px 0;
+}
+.nav-link {
+    color: #fff;
+}
+
+legend, h3{
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+#about figure{
+    display: flex;
+    align-items: flex-start;
+}
+figure img{
+    margin-right: 40px;
+    height: 120px;
+}
+
+#skills ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#skills li{
+    height: 120px;
+    border: 1px solid #e7eaf3;
+    border-radius: 8px;
+    padding: 4px;
+    flex-direction: column;
+        width: 20%;
+margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 20px 20px 8px rgba(0,0,0,.09); */
+}
+
+
+fieldset{
+    width: 50%;
+    margin: 20px auto;
+    }
+    fieldset figcaption{
+        font-weight: bolder;
+        margin-bottom: 15px;
+    }
+fieldset form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+form button{
+    margin-top: 40px;
+}
+/* #toTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+} */
+.back-to-top {
+    position: fixed;
+    font-size: 40px;
+    right: 20px;
+    bottom: 50px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
